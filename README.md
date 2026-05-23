@@ -81,12 +81,12 @@ The testing life cycle is executed iteratively per module. Below is the current 
 
 | Module ID | Test Suite / Functional Component | Total TCs | 🟢 Passed | 🔴 Failed | 🟡 Skipped | ⚪ Pending | Progress (%) |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **01** | Pick-up Point Selection | 6 | 0 | 0 | 0 | 6 | 100% |
+| **01** | Pick-up Point Selection | 6 | 6 | 0 | 0 | 0 | 100% |
 | **02** | Dish Selection (List & Details) | 0 | 0 | 0 | 0 | 0 | 0% |
 | **03** | Order Confirmation & Checkout | 0 | 0 | 0 | 0 | 0 | 0% |
 | **04** | Real-Time Order Tracking | 0 | 0 | 0 | 0 | 0 | 0% |
 | **05** | Order Dispatched & Error Notifications | 0 | 0 | 0 | 0 | 0 | 0% |
-| **Total** | **Cumulative Metrics** | **6** | **0** | **0** | **0** | **6** | **xx%** |
+| **Total** | **Cumulative Metrics** | **6** | **6** | **0** | **0** | **0** | **xx%** |
 
 ---
 
