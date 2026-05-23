@@ -20,7 +20,7 @@
 
 ## Design References & UI Mockups
 
-| Fig 1: Dish List Component | Dish Details Component |
+| Fig 1: Dish List Component | Fig 2: Dish Details Component |
 | :---: | :---: |
 | ![Dish List Screen](./assets/02_dish_selection/dish_list.png) | ![Dish Details Screen](./assets/02_dish_selection/dish_details.png) |
 | *The screen consists of a list of dishes and a footer.* | *The screen consists of a dish description, the restaurant name, and a footer.* |

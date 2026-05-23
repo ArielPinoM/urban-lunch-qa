@@ -1,6 +1,6 @@
 # Test Suite: Dish Selection (List & Details)
 **Module Focus:** Verification of item list mechanics, cart allocation logic, layout integrity, and screen state transitions.
-> 📌 [Requirements](../../docs/requirements/02_dish_selection_specs.md)
+> 📌 [Dish Selection Requirements](../../docs/requirements/02_dish_selection_specs.md#functional-requirements-specification-dish-selection)
 
 | Test ID | Component / Feature | Test Condition (Verification Step) | Expected Result | Status | Link to the Bug Report |
 | :--- | :--- | :--- | :--- | :--- | :---: |

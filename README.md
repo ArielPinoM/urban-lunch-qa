@@ -83,10 +83,10 @@ The testing life cycle is executed iteratively per module. Below is the current 
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **01** | Pick-up Point Selection | 6 | 6 | 0 | 0 | 0 | 100% |
 | **02** | Dish Selection (List & Details) | 11 | 11 | 0 | 0 | 0 | 100% |
-| **03** | Order Confirmation & Checkout | 0 | 0 | 0 | 0 | 0 | 0% |
+| **03** | Order Confirmation & Checkout | 8 | 7 | 0 | 1 | 0 | 0% |
 | **04** | Real-Time Order Tracking | 0 | 0 | 0 | 0 | 0 | 0% |
 | **05** | Order Dispatched & Error Notifications | 0 | 0 | 0 | 0 | 0 | 0% |
-| **Total** | **Cumulative Metrics** | **17** | **17** | **0** | **0** | **0** | **xx%** |
+| **Total** | **Cumulative Metrics** | **25** | **24** | **0** | **1** | **0** | **xx%** |
 
 ---
 

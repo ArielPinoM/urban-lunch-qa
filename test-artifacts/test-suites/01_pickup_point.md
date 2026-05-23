@@ -1,6 +1,6 @@
 # Test Suite: Pick-up Point Selection
 **Module Focus:** Verification of map rendering states, selection toggles, and state transitions for delivery points.
-> 📌 [Requirements](../../docs/requirements/01_pickup_points_specs.md)
+> 📌 [Pickup Point Selection Requirements](../../docs/requirements/01_pickup_points_specs.md#functional-requirements-specification-pick-up-point-selection)
 
 | Test ID | Component / Feature | Test Condition (Verification Step) | Expected Result | Status | Link to the Bug Report |
 | :--- | :--- | :--- | :--- | :--- | :---: |
