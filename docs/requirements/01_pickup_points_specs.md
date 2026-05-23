@@ -16,9 +16,6 @@
 
 ## Design References & UI Mockups
 
-### Initial State
-Below are the official UI design specifications for the map states. Use these as the source of truth for visual verification during test execution.
-
 | Fig 1.1: Screen Initialization (REQ-PP-001) (REQ-PP-002) |
 | :---: |
 | ![Initial Map State](assets/01_pickup_point/pickup_point_selection.png) |

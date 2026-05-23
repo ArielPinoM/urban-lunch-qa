@@ -27,7 +27,7 @@ The scope of validation focuses entirely on the core functional requirements and
 *   **Focus Management:** Verifying that selecting a new pick-up point shifts focus immediately and deselects the previously active one.
 
 ### 2. Dish Selection
-> 📌 [Requirements Matrix [PENDING]](./docs/requirements/)
+> 📌 [Requirements Matrix](./docs/requirements/02_dish_selection_specs.md)
 
 *   **Dish List UI & Navigation:** 
     *   Verifying item container components (Name, '+/-' modifiers, item counter, and details arrow).
@@ -82,11 +82,11 @@ The testing life cycle is executed iteratively per module. Below is the current 
 | Module ID | Test Suite / Functional Component | Total TCs | 🟢 Passed | 🔴 Failed | 🟡 Skipped | ⚪ Pending | Progress (%) |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **01** | Pick-up Point Selection | 6 | 6 | 0 | 0 | 0 | 100% |
-| **02** | Dish Selection (List & Details) | 0 | 0 | 0 | 0 | 0 | 0% |
+| **02** | Dish Selection (List & Details) | 11 | 11 | 0 | 0 | 0 | 100% |
 | **03** | Order Confirmation & Checkout | 0 | 0 | 0 | 0 | 0 | 0% |
 | **04** | Real-Time Order Tracking | 0 | 0 | 0 | 0 | 0 | 0% |
 | **05** | Order Dispatched & Error Notifications | 0 | 0 | 0 | 0 | 0 | 0% |
-| **Total** | **Cumulative Metrics** | **6** | **6** | **0** | **0** | **0** | **xx%** |
+| **Total** | **Cumulative Metrics** | **17** | **17** | **0** | **0** | **0** | **xx%** |
 
 ---
 
