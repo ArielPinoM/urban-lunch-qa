@@ -1,0 +1,18 @@
+# Android Studio & Gradle files (If you open the project or logs here)
+.gradle/
+build/
+.idea/
+*.iml
+*.apk
+*.aar
+
+# Local QA Artifacts & System Overrides
+.DS_Store
+Thumbs.db
+*.log
+local.properties
+
+# Test Evidence (Optional: keep this active if you upload evidence manually via GitHub, 
+# but ignore huge video recordings or raw device dumps)
+# capture_dumps/
+# *.mp4
