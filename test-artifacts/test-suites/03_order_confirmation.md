@@ -2,8 +2,8 @@
 **Module Focus:** Verification of summary layout components, aggregate cost calculation, scrolling constraints, and checkout routing.
 > 📌 [Order Confirmation Requirements](../../docs/requirements/03_order_confirmation_specs.md#functional-requirements-specification-order-confirmation)
 
-| Test ID | Component / Feature | Test Condition (Verification Step) | Expected Result | Status |
-| :--- | :--- | :--- | :--- | :---: |
+| Test ID | Component / Feature | Test Condition (Verification Step) | Expected Result | Status | Bug Report Link |
+| :--- | :--- | :--- | :--- | :--- | :---: |
 | **TC-OC-001** | Pick-up Point Label | Select Enigma as the pickup point and navigate to the Checkout screen. | The screen explicitly displays the correct name (Enigma) of the chosen Pick-up Point. | 🟢 PASSED |
 | **TC-OC-002** | Back Button Navigation | Tap the "Back" button on the Order Confirmation view. | The application safely terminates the checkout view and returns to the previous screen. | 🟢 PASSED |
 | **TC-OC-003** | Estimated Delivery ETA | Verify the delivery text block on screen initialization. | The interface displays the estimated delivery ETA for collection at the pick-up node. | 🟡 SKIPPED<br>[Gray Area] The requirements specify that the estimated delivery time should be displayed. However, the attached Order Confirmation screen design does not display the estimated delivery time. |

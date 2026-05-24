@@ -2,7 +2,7 @@
 **Module Focus:** Verification of map rendering states, selection toggles, and state transitions for delivery points.
 > 📌 [Pickup Point Selection Requirements](../../docs/requirements/01_pickup_points_specs.md#functional-requirements-specification-pick-up-point-selection)
 
-| Test ID | Component / Feature | Test Condition (Verification Step) | Expected Result | Status | Link to the Bug Report |
+| Test ID | Component / Feature | Test Condition (Verification Step) | Expected Result | Status | Bug Report Link |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 | **TC-PP-001** | Initial Map State | Launch the application and load the Pick-up Point selection screen. | The interactive map renders all available pick-up points. No point is selected by default. | 🟢 PASSED |
 | **TC-PP-002** | Selection State | Tap an unselected pick-up point icon on the map. | The selected point changes its visual state to black color and is marked active. | 🟢 PASSED |

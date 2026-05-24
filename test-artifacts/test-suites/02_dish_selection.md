@@ -2,7 +2,7 @@
 **Module Focus:** Verification of item list mechanics, cart allocation logic, layout integrity, and screen state transitions.
 > 📌 [Dish Selection Requirements](../../docs/requirements/02_dish_selection_specs.md#functional-requirements-specification-dish-selection)
 
-| Test ID | Component / Feature | Test Condition (Verification Step) | Expected Result | Status | Link to the Bug Report |
+| Test ID | Component / Feature | Test Condition (Verification Step) | Expected Result | Status | Bug Report Link |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 | **TC-DS-001** | List UI Layout | Initialize the Dish List view and check items elements. | Each item row displays the name, '+' button, '-' button, counter, and details arrow. | 🟢 PASSED |
 | **TC-DS-002** | Navigation Vector | Tap on the row body/text area of a specific dish item. | The application intercepts the event and navigates to the Dish Details screen. | 🟢 PASSED |
