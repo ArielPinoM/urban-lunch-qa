@@ -42,7 +42,7 @@ The scope of validation focuses entirely on the core functional requirements and
     *   Ensuring the 'Next' checkout button remains disabled until at least one item is present in the order list.
 
 ### 3. Order Confirmation
-> 📌 [Requirements Matrix [PENDING]](./docs/requirements/)
+> 📌 [Requirements Matrix](./docs/requirements/03_order_confirmation_specs.md)
 
 *   **Screen Layout Verification:** Validating the layout matrix containing the Pick-up Point name, 'Back' navigation button, item summary list, total aggregate cost, estimated delivery ETA, and the operational footer.
 *   **UI Constraints:** Verifying scrollability and list view scrolling performance for long, multi-item orders.
@@ -51,14 +51,14 @@ The scope of validation focuses entirely on the core functional requirements and
 *   **Workflow Transition:** Tapping the 'Order' button successfully processes the state change and routes the user to the Order Tracking view.
 
 ### 4. Real-Time Order Tracking
-> 📌 [Requirements Matrix [PENDING]](./docs/requirements/)
+> 📌 [Requirements Matrix](./docs/requirements/04_order_tracking_specs.md)
 
 *   **Map & Routing Logic:** Verifying concurrent rendering of the target pick-up point, preparing restaurant nodes, active courier routes, unit line pricing per restaurant, preparation countdown timers, and individual delivery transit ETAs.
 *   **Dynamic Lists:** Scroll verification for heavy data sets inside the status cards.
 *   **Timer Lifecycle:** Tracking the global countdown timer behavior. Upon full completion/delivery of all items, the timer must hit zero and automatically trigger the screen transition to 'Order Dispatched'.
 
 ### 5. Order Dispatched & Error Notifications
-> 📌 [Requirements Matrix [PENDING]](./docs/requirements/)
+> 📌 [Requirements Matrix [PENDING]](./docs/requirements/05_order_dispatched_specs.md)
 
 *   **Order Completion Flow:** Automated state transition upon countdown timeout, displaying the pick-up point vector anchor, routing the user to the Feedback screen upon action click, and resetting the app state back to Pick-up Selection for clean sequence replication.
 *   **Error Handling & Exception Handling:**
@@ -83,10 +83,10 @@ The testing life cycle is executed iteratively per module. Below is the current 
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **01** | Pick-up Point Selection | 6 | 6 | 0 | 0 | 0 | 100% |
 | **02** | Dish Selection (List & Details) | 11 | 11 | 0 | 0 | 0 | 100% |
-| **03** | Order Confirmation & Checkout | 8 | 7 | 0 | 1 | 0 | 0% |
-| **04** | Real-Time Order Tracking | 9 | 6 | 3 | 0 | 0 | 0% |
-| **05** | Order Dispatched & Error Notifications | 0 | 0 | 0 | 0 | 0 | 0% |
-| **Total** | **Cumulative Metrics** | **34** | **30** | **3** | **1** | **0** | **xx%** |
+| **03** | Order Confirmation & Checkout | 8 | 7 | 0 | 1 | 0 | 100% |
+| **04** | Real-Time Order Tracking | 9 | 6 | 3 | 0 | 0 | 100% |
+| **05** | Order Dispatched & Error Notifications | 5 | 5 | 0 | 0 | 0 | 100% |
+| **Total** | **Cumulative Metrics** | **39** | **35** | **3** | **1** | **0** | **100%** |
 
 ---
 
